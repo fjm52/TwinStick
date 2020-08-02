@@ -8,10 +8,6 @@ func init(dir):
 	direction = dir
 
 
-func _ready():
-	pass
-
-
 func _physics_process(_delta):
 	global_translate(direction * speed)
 
